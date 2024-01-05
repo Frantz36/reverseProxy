@@ -1,10 +1,13 @@
 const express = require("express");
 const { createProxyMiddleware } = require("http-proxy-middleware");
 const httpProxy = require("http-proxy");
+const cors = require("cors");
 
 const userRoutes = require("./routes/userRoute");
 
 const app = express();
+
+app.use(cors());
 
 app.use(express.json());
 app.use("/", userRoutes);
@@ -39,13 +42,14 @@ const proxy = httpProxy.createProxyServer();
 const tunnels = [];
 
 app.post("/create-tunnel", (req, res) => {
-  const publicUrl = "http://localhost:4000/" + Math.random().toString(36).substring(7);
+  const publicUrl =
+    "http://localhost:4000/" + Math.random().toString(36).substring(7);
 
   const tunnel = {
     publicUrl,
-    targetUrl: req.body.targetUrl
+    targetUrl: req.body.targetUrl,
   };
-  
+
   tunnels.push(tunnel);
 
   res.json({ publicUrl });

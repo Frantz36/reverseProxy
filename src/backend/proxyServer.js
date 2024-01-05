@@ -2,7 +2,7 @@ const http = require("http");
 const app = require("./app-proxy");
 const db = require("./config/dbConfig");
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 5000;
 
 app.set("port", port);
 
