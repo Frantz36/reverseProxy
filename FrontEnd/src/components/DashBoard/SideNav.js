@@ -1,17 +1,25 @@
 import React from 'react'
 import 
 {BsCart3, BsGrid1X2Fill, BsFillArchiveFill, BsFillGrid3X3GapFill, BsPeopleFill, 
-  BsListCheck, BsMenuButtonWideFill, BsFillGearFill}
+  BsListCheck, BsMenuButtonWideFill, BsFillGearFill,BsApp,BsArrowRightShort,BsArrowDownUp}
  from 'react-icons/bs'
+ import {TbLogout, TbUser} from 'react-icons/tb'
 
 function Sidebar({openSidebarToggle, OpenSidebar}) {
   return (
     <aside id="sidebar" className={openSidebarToggle ? "sidebar-responsive": ""}>
         <div className='sidebar-title'>
             <div className='sidebar-brand'>
-                <BsCart3  className='icon_header'/> SHOP
+                <BsApp  className='icon_header'/> Reverse-Proxy
             </div>
             <span className='icon close_icon' onClick={OpenSidebar}>X</span>
+        </div>
+        <div className="user">
+                <TbUser className='user-icon'/> 
+                <div>
+                    <p>User</p>
+                    <p>Pharmacist</p>
+                </div>
         </div>
 
         <ul className='sidebar-list'>
@@ -22,32 +30,17 @@ function Sidebar({openSidebarToggle, OpenSidebar}) {
             </li>
             <li className='sidebar-list-item'>
                 <a href="">
-                    <BsFillArchiveFill className='icon'/> Products
+                    <BsArrowDownUp className='icon'/> Tunnel
                 </a>
             </li>
             <li className='sidebar-list-item'>
                 <a href="">
-                    <BsFillGrid3X3GapFill className='icon'/> Categories
+                    <BsListCheck className='icon'/> Billing
                 </a>
             </li>
             <li className='sidebar-list-item'>
                 <a href="">
-                    <BsPeopleFill className='icon'/> Customers
-                </a>
-            </li>
-            <li className='sidebar-list-item'>
-                <a href="">
-                    <BsListCheck className='icon'/> Inventory
-                </a>
-            </li>
-            <li className='sidebar-list-item'>
-                <a href="">
-                    <BsMenuButtonWideFill className='icon'/> Reports
-                </a>
-            </li>
-            <li className='sidebar-list-item'>
-                <a href="">
-                    <BsFillGearFill className='icon'/> Setting
+                    <TbLogout className='icon'/> LogOut
                 </a>
             </li>
         </ul>
