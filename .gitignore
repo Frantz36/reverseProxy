@@ -1,0 +1,2 @@
+#ignorer tous les nodes modules
+**/node_modules/
