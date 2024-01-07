@@ -29,17 +29,19 @@ body {
   .user{
       display: flex;
       align-items: center;
-      margin: 1rem 0;
+      flex-direction: column;
+      
   }
   .user p {
-      color: white;
+    color: #9e9ea4;
       opacity: 1;
       font-weight: 700;
-      margin-left: 1rem;
+      font-size: larger;
   }
   .user-icon{
-    width: 100px;
-    height: 100px;
+    color: #9e9ea4;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     border: 1px solid #eee;
 }
