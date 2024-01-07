@@ -1,0 +1,153 @@
+@font-face {
+    font-family: euclid;
+    src: url('https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-Regular-WebS.woff') format('woff') ;
+
+}
+
+.home{
+    background-color: aliceblue;
+}
+
+.welcome{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 120px 20px 120px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.welcome h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.welcome p{
+    text-align:left;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.text{
+    width: 70%;
+    height: 30%;
+}
+
+.welcome button{
+    cursor: pointer;
+    color: aliceblue;
+    font-family: euclid;
+    background-color: #243B55;
+    border: 1px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#setup{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 120px 20px 120px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.title {
+    margin-bottom: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header p{
+    color: gray;
+}
+
+.platform {
+    width: 145px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.content {
+    font-size: 16px;
+}
+
+.content h3{
+    color: #0069d9;
+}
+.code {
+    display: block;
+    width: 80%;
+    height: fit-content;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px ;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: monospace;
+    background-color: #f0f0f0;
+}
+
+.code_clip{
+    display: flex;
+}
+
+.button {
+    margin-left: 10px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color:#93c5fd;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.radio {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.link {
+    color: blue;
+    cursor: pointer;
+}
+
+.home > p{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}

@@ -1,0 +1,22 @@
+@font-face {
+    font-family: euclid;
+    src: url('https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-Regular-WebS.woff') format('woff') ;
+
+}
+
+body{
+    margin: 0 auto;
+    font-family: euclid;
+}
+
+.comp{
+    display: flex;
+}
+
+.rest{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 100vh;
+}
+ 

@@ -1,0 +1,59 @@
+@font-face {
+    font-family: euclid;
+    src: url('https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-Regular-WebS.woff') format('woff') ;
+
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    min-height: 100vh;
+    background-color: #243B55;
+    transition: all 0.3s;
+}
+
+.select {
+    font-family: euclid;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px aliceblue solid;
+}
+
+.nav_link {
+    text-decoration: none;
+    display: flex;
+    color:  rgb(188, 216, 240);
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.2s;
+}
+
+.link:hover {
+    background: lightskyblue;
+    color: white;
+    transition: all 0.2s;
+}
+
+.active {
+    background: lightskyblue;
+    color: white;
+}
+
+.icon,
+.link_name {
+    font-size: 15px;
+}
+
+.currentAccount {
+    font-size: medium;
+    font-family: euclid;
+    padding: 10px;
+    background-color: transparent;
+    width: 100%;
+    border: 0px;
+    border-color: aliceblue;
+    cursor: pointer;
+}

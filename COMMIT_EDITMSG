@@ -1,0 +1,51 @@
+finished homepage
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch Princilia
+# Changes to be committed:
+#	modified:   FrontEnd/node_modules/.cache/.eslintcache
+#	new file:   FrontEnd/node_modules/.cache/babel-loader/15914fd82cd45b7e1e24d7d9f7b78d5dfeb3ddc4c8ec3b9cc18d458daea5cb11.json
+#	new file:   FrontEnd/node_modules/.cache/babel-loader/2bbf18450a04268a7dbcfbe9098cb57d214917b79a957351a86d0d45b53aa750.json
+#	new file:   FrontEnd/node_modules/.cache/babel-loader/3301026c2401fb114322bb31b22a1489353eb787db19913d2f0af703c4bfa2ed.json
+#	new file:   FrontEnd/node_modules/.cache/babel-loader/342ee5bdab970da80f4ef0cbc5f0a784bd563a0198fa6a7e9bd9da1414e3545b.json
+#	new file:   FrontEnd/node_modules/.cache/babel-loader/3be95d4f3dd3caa5c8f0e606c3260438128d87763f9842899960ab7110a07f93.json
+#	new file:   FrontEnd/node_modules/.cache/babel-loader/5e1abf00f1f74795bcb6461118a9a2c6b8368942e834391b3f0262a71e0e70df.json
+#	new file:   FrontEnd/node_modules/.cache/babel-loader/81c9c7fe184571ebc3856cc91f08dc62f0bb190543d86072138e6825e40645d7.json
+#	new file:   FrontEnd/node_modules/.cache/babel-loader/866bcf27a8e39b11f376f7b95089540d97704c63d40d1fa9004e6c2ac59f2558.json
+#	new file:   FrontEnd/node_modules/.cache/babel-loader/8ea6e2f64219940d32493609c042091e3b310ab0e3dddd25bd26687563bfbebe.json
+#	new file:   FrontEnd/node_modules/.cache/babel-loader/b69608e4c5cb9e27c4372417a2f7af5750c9fd5782e95a198211b2687c11c019.json
+#	new file:   FrontEnd/node_modules/.cache/babel-loader/b91b89e9d9994259477d4b2e0ee6d411fabaa28de34473778258ea64131c721d.json
+#	modified:   FrontEnd/node_modules/.cache/default-development/0.pack
+#	modified:   FrontEnd/node_modules/.cache/default-development/101.pack
+#	modified:   FrontEnd/node_modules/.cache/default-development/117.pack
+#	modified:   FrontEnd/node_modules/.cache/default-development/127.pack
+#	modified:   FrontEnd/node_modules/.cache/default-development/131.pack
+#	modified:   FrontEnd/node_modules/.cache/default-development/132.pack
+#	modified:   FrontEnd/node_modules/.cache/default-development/134.pack
+#	modified:   FrontEnd/node_modules/.cache/default-development/136.pack
+#	modified:   FrontEnd/node_modules/.cache/default-development/137.pack
+#	modified:   FrontEnd/node_modules/.cache/default-development/138.pack
+#	modified:   FrontEnd/node_modules/.cache/default-development/139.pack
+#	modified:   FrontEnd/node_modules/.cache/default-development/140.pack
+#	modified:   FrontEnd/node_modules/.cache/default-development/141.pack
+#	new file:   FrontEnd/node_modules/.cache/default-development/142.pack
+#	new file:   FrontEnd/node_modules/.cache/default-development/143.pack
+#	new file:   FrontEnd/node_modules/.cache/default-development/144.pack
+#	new file:   FrontEnd/node_modules/.cache/default-development/145.pack
+#	modified:   FrontEnd/node_modules/.cache/default-development/24.pack
+#	modified:   FrontEnd/node_modules/.cache/default-development/38.pack
+#	modified:   FrontEnd/node_modules/.cache/default-development/8.pack
+#	modified:   FrontEnd/node_modules/.cache/default-development/82.pack
+#	modified:   FrontEnd/node_modules/.cache/default-development/index.pack
+#	modified:   FrontEnd/node_modules/.cache/default-development/index.pack.old
+#	modified:   FrontEnd/src/App.js
+#	modified:   FrontEnd/src/styles/App.css
+#	modified:   FrontEnd/src/styles/Homepage.css
+#	modified:   FrontEnd/src/styles/components/Sidebar.css
+#
+#
+# It took 2.34 seconds to enumerate untracked files,
+# but the results were cached, and subsequent runs may be faster.
+# See 'git help status' for information on how to improve this.
+#
