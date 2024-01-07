@@ -15,9 +15,6 @@ function Sidebar({openSidebarToggle, OpenSidebar}) {
         let userData =JSON.parse(localStorage.getItem('userData'))
         setCurrentUser(userData)
     }, [])
-    useEffect(()=>{
-        console.log(user)
-    }, [user])
     const logOut= ()=>{
         localStorage.removeItem('userData')
         navigate('/')
@@ -44,7 +41,7 @@ function Sidebar({openSidebarToggle, OpenSidebar}) {
                 </a>
             </li>
             <li className='sidebar-list-item'>
-                <a href="">
+                <a href="/tunnel">
                     <BsArrowDownUp className='icon'/> Tunnel
                 </a>
             </li>

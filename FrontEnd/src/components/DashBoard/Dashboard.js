@@ -13,6 +13,7 @@ function DashBoard(){
         let userData =JSON.parse(localStorage.getItem('userData'))
         setCurrentUser(userData)
     }, [])
+
   const [openSidebarToggle, setOpenSidebarToggle] = useState(false)
 
   const OpenSidebar = () => {

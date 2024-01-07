@@ -17,8 +17,13 @@ export async function getPublicIP() {
 
 //Generation de lien pour un port donné
 export const urlGeneration = async (portNumber) => {
+  try {
     const tunnel = await localtunnel({ port: portNumber });
     return tunnel.url
+  } catch (error) {
+    console.log("Erreur :", error)
+  }
+    
 };
 
 

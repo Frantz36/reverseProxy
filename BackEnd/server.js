@@ -23,6 +23,9 @@ app.use(express.json({ limit: "4mb" }));
 //usage of routes
 app.use("/api/auth", AuthRoute);
 app.use("/api/generate-url",urlGenerationRoutes);
+app.use("/test",()=>{
+  console.log("Bonjour")
+});
 app.use((err, req, res, next) => {
   if (res.headersSent) return next(err);
   res.status(400).json({ message: err.message });

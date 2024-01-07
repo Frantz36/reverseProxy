@@ -1,0 +1,51 @@
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr  1.5fr;
+    grid-gap: 7%;
+    margin-left: 15%;
+    background-color: #1d2634;
+    margin-top: 5%;
+}
+.tunnel-form{
+    background-color: rgb(116, 121, 124);
+}
+.tunnels-list{
+    background-color: white;  
+    overflow-y: auto; 
+}
+.tunnels-list table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align-last: left;
+    
+    
+}
+th,td,tr{
+    padding: 10px;
+    border: 1px solid black;
+    color: black;
+}
+th{
+    background-color: rgb(116, 121, 124);
+    color: white;
+    
+}
+
+button{
+    border-radius: 0px;
+    border: 1px solid var(--grad-clr1);
+    background: var(--grad-clr2);
+    color: #FFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+form {
+    margin-top: 50%;
+    display: block;
+    
+    padding: 0px 50px;
+}
