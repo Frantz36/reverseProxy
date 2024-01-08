@@ -1,4 +1,4 @@
-import { getPublicIP, urlGeneration } from "../Utils/UrlGeneration.js"
+import { getDateFormatted, getPublicIP, urlGeneration } from "../Utils/UrlGeneration.js"
 import UserModel from "../Models/UserModel.js"
 import { signinToken } from "../Utils/AuthConfig.js"
 //get generated url and public ip of tunnel's creator
@@ -16,7 +16,7 @@ export const generateUrl = async (req, res)=>{
                 user.generatedUrls.push({
                     localPort : localPort,
                     url: urlGenerated,
-                    createdAt : new Date()
+                    createdAt : getDateFormatted()
                 });
                 user.save()
                 
@@ -32,7 +32,7 @@ export const generateUrl = async (req, res)=>{
                     generatedUrl : urlGenerated,
                     publicIpCreator : ip,
                     localport : localPort,
-                    createdAt : new Date()
+                    createdAt : getDateFormatted()
                 }]
                 user.save()
                 res.status(200).send({

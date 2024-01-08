@@ -1,12 +1,18 @@
 
-.container{
+ .container-tunnel{
     display: grid;
     grid-template-columns: 1fr  1.5fr;
     grid-gap: 7%;
     margin-left: 15%;
     background-color: #1d2634;
     margin-top: 5%;
-}
+    position: relative;
+    width: 850px;
+    height: 500px;
+    box-shadow: 25px 30px 55px #5557;
+    border-radius: 0px;
+    overflow: hidden;
+} 
 .tunnel-form{
     background-color: rgb(116, 121, 124);
 }
@@ -31,7 +37,10 @@ th{
     color: white;
     
 }
-
+.generate-button{
+    border-radius: 0px;
+}
+/* 
 button{
     border-radius: 0px;
     border: 1px solid var(--grad-clr1);
@@ -48,4 +57,4 @@ form {
     display: block;
     
     padding: 0px 50px;
-}
+} */

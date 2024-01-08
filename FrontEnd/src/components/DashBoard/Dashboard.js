@@ -24,7 +24,7 @@ function DashBoard(){
 
 return (
 
-<div className='grid-container'>
+<div className='grid-container dashboard-container'>
   <Header OpenSidebar={OpenSidebar}/>
   <Sidebar openSidebarToggle={openSidebarToggle} OpenSidebar={OpenSidebar}/>
   <main className='main-container'>

@@ -19,6 +19,9 @@ body {
   .icon, .icon_header {
     margin-right: 5px;
   }
+  .dashboard-container{
+    width: 100vw;
+  }
   
   .close_icon {
     color: red;

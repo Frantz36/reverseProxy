@@ -49,14 +49,14 @@ function Tunnel(){
         <div className='grid-container'>
             <Header OpenSidebar={OpenSidebar}/>
             <Sidebar openSidebarToggle={openSidebarToggle} OpenSidebar={OpenSidebar}/>
-            <div className="container">
+            <div className="container-tunnel" >
                 <div className="tunnel-form">
                     <form onSubmit={onGenerateUrl} method='POST'>
                         <div className="infield">
                             <input onChange={(e)=>setLocalPort(e.target.value)} type="number" placeholder="Local Port" name="name" />
                             <label></label>
                         </div>
-                        <button>Generate Url</button>
+                        <button className="generate-button">Generate Url</button>
                     </form>
                 </div>
 
