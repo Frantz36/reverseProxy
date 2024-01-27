@@ -4,7 +4,10 @@ import DashBoard from './components/DashBoard/Dashboard';
 import AuthGuard from './components/AuthGuard/AuthGuard';
 import IsAuthGuard from './components/IsAuthGuard/IsAuthGuard';
 import Tunnel from './components/Tunnel/Tunnel';
+import React from 'react';
 
+import Home from './components/Home';
+import About from './components/About';
 function App() {
   return (
     <div className="App">
@@ -21,3 +24,30 @@ function App() {
 }
 
 export default App;
+
+const Navigation = () => {
+  return (
+    <nav>
+      <ul>
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/about">About</Link>
+        </li>
+      </ul>
+    </nav>
+  );
+};
+
+const App = () => {
+  return (
+    <BrowserRouter>
+      <Navigation />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </BrowserRouter>
+  );
+};
